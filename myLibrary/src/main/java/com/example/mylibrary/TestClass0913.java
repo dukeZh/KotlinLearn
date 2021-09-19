@@ -1,6 +1,6 @@
 package com.example.mylibrary;
 
-public class MyJava {
+public class TestClass0913 {
     public static void is(){
         System.out.println("is java");
     }
