@@ -3,6 +3,8 @@ package com.example.mylibrary
 import java.lang.Exception
 import java.lang.IllegalArgumentException
 
+
+//33->44  0914 学习记录
 fun main() {
     //函数引用
 //showOnBoard2("牙膏",::getDiscountWords)
