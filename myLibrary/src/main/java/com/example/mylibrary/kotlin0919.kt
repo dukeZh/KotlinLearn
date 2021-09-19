@@ -81,8 +81,9 @@ fun main() {
 //    }
 
     //let 函数 使某个变量作用于其lambda 表达式，让it 关键字引用它
-    //let 与 apply 比较，let会把接收者传给lambda，apply什么都不传，
-    // 执行完成apply 返回当前接受者，let会返回lambda的最后一行
+    //let 与 apply 比较，let会把接收者传给lambda，
+    // apply什么都不传， 执行完成apply 返回当前接受者
+    // let会返回lambda的最后一行
 //   val  result = listOf(3,2,1).first().let {
 //        it*it
 //    }
@@ -99,7 +100,7 @@ fun main() {
 //    println(formatGreeting2("jack"))
 
     //run 函数 支持链式调用
-    // 跟apply 差不多，但不同的是接收者，run返回的是lambda结果，也就是true或者false
+    // 跟apply 差不多，但不同的是接收者，run返回的是lambda结果
     // run 用来执行函数的引用
 //    var file = File("E:\\text.txt")
 //    val result = file.run {
@@ -119,8 +120,8 @@ fun main() {
 //        .run(::println)
 
 
-    //with 是run的变体，功能行为一样，但with 的调用方式不同，调用with时
-    //需要值参作为其中第一个参数传入
+    //with 是run的变体，功能行为一样，但with 的调用方式不同，
+    // 调用with时 需要值参作为其中第一个参数传入
 //    val result1 = "The people's Republic of China".run {
 //        length>10
 //    }
@@ -132,8 +133,8 @@ fun main() {
 //    println(result2)
 
     //also 和let函数功能相似，和let 一样，also也是把接收者作为参传给lambda
-    //但有一点不同，also返回接收者对象，而let返回lambda结果，因为这个差异
-    //also尤其合适针对同一原始对象，利用副作用做事，既然also返回的是接收者对象，
+    //但有一点不同，also返回接收者对象，而let返回lambda结果，
+    // 因为这个差异 also尤其合适针对同一原始对象，利用副作用做事，既然also返回的是接收者对象，
     // 你就可以基于原始接收者对象执行额外的链式调用
 //    var  fileContents:List<String>
 //    val file = File("E:\\text.txt").also {
@@ -147,7 +148,7 @@ fun main() {
     //takeIf
     //takeIf 函数需要判断lambda 中提供的条件表达式，给出true或false结果
     //如果判断结果是true ，从takeIf函数返回接收者对象
-    //如果是false ，返回null
+    //如果判断结果是false ，返回null
     //如果需要判断某个条件是否满足，再决定是否可以赋值变量或执行某项任务
     //takeIf 非常好用，概念上讲，takeIf函数类似于if语句，但它的优势是可以直接在对象实列上调用
     //避免了临时变量赋值的麻烦
