@@ -1,6 +1,4 @@
-package com.example.mylibrary
-
-import kotlin.math.absoluteValue
+package com.example.mylibrary.kotlin0922
 
 //临时变量 _ 开头
 class Player(

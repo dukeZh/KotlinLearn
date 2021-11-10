@@ -1,4 +1,4 @@
-package com.example.mylibrary
+package com.example.mylibrary.kotlin0922
 
 class Player8(_name: String) {
     val name:String = _name // playName = jack

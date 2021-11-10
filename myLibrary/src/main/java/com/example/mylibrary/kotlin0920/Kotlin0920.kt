@@ -1,7 +1,4 @@
-package com.example.mylibrary
-
-import android.os.Build
-import java.io.File
+package com.example.mylibrary.kotlin0920
 
 //59->  0920 学习记录
 fun main() {

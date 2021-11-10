@@ -1,4 +1,4 @@
-package com.example.mylibrary
+package com.example.mylibrary.kotlin0922
 
 
 fun main() {
@@ -35,5 +35,35 @@ fun main() {
     //类级别的属性赋值
     //init 初始化块里的属性赋值和函数调用
     //次构造函数里的属性赋值和函数调用
-   // Student("jack")
+    // Student("jack")
+
+
+    //延迟初始化
+//fun main() {
+//    val  player4 = Player4()
+//    player4.ready()
+//    player4.battle()
+//}
+
+//惰性初始化
+//fun main() {
+//    val player5 = Player5("jack")
+//    Thread.sleep(3000)
+//    println(player5.config)
+//}
+
+//初始化陷阱一
+//fun main() {
+//    Player6()
+//}
+
+//初始化陷阱二
+//fun main() {
+//    Player7()
+//}
+
+//初始化陷阱三
+//fun main() {
+//    println(Player8("jack").playName)
+//}
 }

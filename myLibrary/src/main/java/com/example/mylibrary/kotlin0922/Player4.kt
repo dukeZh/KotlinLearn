@@ -1,4 +1,4 @@
-package com.example.mylibrary
+package com.example.mylibrary.kotlin0922
 
 class Player4 {
     lateinit var equipment:String
