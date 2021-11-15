@@ -1,8 +1,9 @@
 package com.example.mylibrary.kotlin1111
 
 interface Movable2{
-    val maxSpeed:Int
+    var maxSpeed:Int
     get() = (1..500).shuffled().last()
+        set(value) {}
     var wheels:Int
 
     fun move(movable:Movable):String

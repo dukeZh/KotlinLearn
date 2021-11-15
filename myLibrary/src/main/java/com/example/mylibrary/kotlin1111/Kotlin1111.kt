@@ -11,6 +11,4 @@ package com.example.mylibrary.kotlin1111
 //}
 
 //抽象类
-fun main() {
-
-}
+//查看AbstractClassTest
