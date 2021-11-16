@@ -47,3 +47,25 @@ class BurgerStore:Production<Burger> {
     }
 }
 
+//消费者
+class EveryBody:Consumer<Food>{
+    override fun consume(item: Food) {
+        println("Eat food.")
+    }
+}
+
+//现代人
+class ModernPeople:Consumer<FastFood>{
+    override fun consume(item: FastFood) {
+        println("Eat fastFood.")
+    }
+}
+
+
+//现代人
+class American:Consumer<Burger>{
+    override fun consume(item: Burger) {
+        println("Eat burger.")
+    }
+}
+
