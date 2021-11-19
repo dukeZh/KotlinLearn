@@ -210,6 +210,4 @@ public inline fun <T> T.applyTest(block: T.() -> Unit): T {
 //}
 
 //DSL
-fun main() {
-    //127
-}
+//apply 这种函数编写方式叫做DSL
