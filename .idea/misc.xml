@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/ASDEMO/KotlinLearn/app/src/main/res/layout/activity_main.xml" value="0.3390625" />
         <entry key="..\:/githubDemo/KotlinLearn/app/src/main/res/layout/activity_main.xml" value="0.3536458333333333" />
+        <entry key="..\:/githubDemo/KotlinLearn/app/src/main/res/layout/fragment_blank.xml" value="0.3536458333333333" />
+        <entry key="..\:/githubDemo/KotlinLearn/app/src/main/res/layout/fragment_test.xml" value="0.3536458333333333" />
+        <entry key="..\:/githubDemo/KotlinLearn/kotlincoroutine/src/main/res/layout/activity_main.xml" value="0.3390625" />
+        <entry key="..\:/githubDemo/KotlinLearn/kotlincoroutine/src/main/res/xml/networt_security_config.xml" value="0.3536458333333333" />
       </map>
     </option>
   </component>
