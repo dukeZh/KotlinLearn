@@ -15,9 +15,9 @@ import kotlin.coroutines.*
 /**
  * MainScope 使用
  */
-class MainActivity6 : AppCompatActivity(),CoroutineScope by  MainScope(){
+class MainActivity6 : AppCompatActivity(), CoroutineScope by MainScope() {
 
-   // private var mainScope = MainScope()
+    // private var mainScope = MainScope()
     private var textView: TextView? = null
 
     @DelicateCoroutinesApi
@@ -29,8 +29,8 @@ class MainActivity6 : AppCompatActivity(),CoroutineScope by  MainScope(){
         val button = findViewById<Button>(R.id.button).also {
             it.setOnClickListener {
                 /*mainScope.launch {
-                    *//*val user = userServiceApi.getUser()
-                    textView?.text = user.toString()*//*
+                   val user = userServiceApi.getUser()
+                        textView?.text = user.toString()
 //                    try {
 //                        delay(10000)
 //                    } catch (e: Exception) {
