@@ -8,7 +8,7 @@ class Spellbook {
     //伴生对象
     companion object {
          // @JvmField
-         const val MAX_SPELL_COUNT = 10
+          val MAX_SPELL_COUNT = 10
 
          // @JvmStatic
         fun getSpellBookGreeting() = println("I am the Great Grimoire!")

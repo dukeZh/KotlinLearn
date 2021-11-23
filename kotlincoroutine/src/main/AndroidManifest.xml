@@ -11,7 +11,7 @@
         android:networkSecurityConfig="@xml/networt_security_config"
         android:theme="@style/Theme.KotlinLearn">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity6"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

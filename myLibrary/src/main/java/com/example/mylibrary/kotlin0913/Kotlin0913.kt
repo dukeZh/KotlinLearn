@@ -67,10 +67,10 @@ fun main(args: Array<String>) {
 
 //匿名函数
 //    val total ="Mississippi".count()
-//    val totals = "Mississippi".count({
-//            letter-> letter == 's'
-//    })
 //    println(total)
+//    val totals = "Mississippi".count { letter ->
+//        letter == 's'
+//    }
 //    println(totals)
 
 
