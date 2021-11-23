@@ -10,6 +10,9 @@ import kotlin.Unit;
 import kotlin.jvm.JvmOverloads;
 import kotlin.jvm.functions.Function1;
 
+/**
+ * @author duke_zh
+ */
 public class Jhava {
 
     //类型映射
@@ -55,7 +58,7 @@ public class Jhava {
 
         //java 中使用伴生对象
         //没有使用JvmField
-        Spellbook.Companion.getMAX_SPELL_COUNT();
+        Spellbook.MAX_SPELL_COUNT;
         //没有使用JvmStatic
         Spellbook.Companion.getSpellBookGreeting();
         //使用JvmField
