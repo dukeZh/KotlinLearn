@@ -13,7 +13,6 @@ import kotlinx.coroutines.*
 class MainActivity3 : AppCompatActivity() {
     private var textView: TextView? = null
 
-    @DelicateCoroutinesApi
     @SuppressLint("StaticFieldLeak")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

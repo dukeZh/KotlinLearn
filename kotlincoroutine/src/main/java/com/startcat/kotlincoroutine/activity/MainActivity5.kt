@@ -12,7 +12,7 @@ import kotlin.coroutines.*
  * 源码编写一个协程
  */
 class MainActivity5 : AppCompatActivity() {
-    @DelicateCoroutinesApi
+
     @SuppressLint("StaticFieldLeak")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -20,7 +20,6 @@ class MainActivity6 : AppCompatActivity(), CoroutineScope by MainScope() {
     // private var mainScope = MainScope()
     private var textView: TextView? = null
 
-    @DelicateCoroutinesApi
     @SuppressLint("StaticFieldLeak")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

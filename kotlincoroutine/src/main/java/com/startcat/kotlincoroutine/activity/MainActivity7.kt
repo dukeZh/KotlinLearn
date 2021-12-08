@@ -25,7 +25,7 @@ class MainActivity7 : AppCompatActivity() {
 
     //coroutineScope 协程作用域参考 协程作用域.png
     private val mainViewModel:MainViewModel by viewModels()
-    @DelicateCoroutinesApi
+
     @SuppressLint("StaticFieldLeak")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
